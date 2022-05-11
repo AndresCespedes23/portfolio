@@ -1,5 +1,6 @@
 .mongo {
     height: 128px;
+    
 }
 .express {
     height: 128px;
@@ -10,6 +11,7 @@
 .node {
     height: 128px;
 }
-.gitflow {
-    height: 256px;
+.fullstack {
+    height: auto;
+    width: 100%;
 }

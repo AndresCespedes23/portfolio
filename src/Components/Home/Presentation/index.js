@@ -6,8 +6,8 @@ function Presentation() {
   return (
     <section>
       <div>
-        <h1>Hi 👋, I'm Andrés Céspedes</h1>
-        <h2>A fullstack Javascript developer from Argentina</h2>
+        <h1>👋 Hi, I'm Andrés Céspedes.</h1>
+        <h2>👨‍💻 A fullstack Javascript developer from Argentina.</h2>
         <p>
           I enjoy solving complex problems.
           Frequently praised as detail-oriented by my peers,

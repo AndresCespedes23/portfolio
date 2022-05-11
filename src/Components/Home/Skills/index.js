@@ -14,11 +14,7 @@ function Skills() {
       </div>
       <div>
         <h2>What I do with the M.E.R.N stack ?</h2>
-        <img src={`${process.env.PUBLIC_URL}/img/mern/fullstack.svg`} alt="fullstack" />
-      </div>
-      <div>
-        <h2>I use Gitflow for teamwork:</h2>
-        <img className={styles.gitflow} src={`${process.env.PUBLIC_URL}/img/gitflow.png`} alt="gitflow" />
+        <img className={styles.fullstack} src={`${process.env.PUBLIC_URL}/img/mern/fullstack.svg`} alt="fullstack" />
       </div>
     </seciton>
 
