@@ -18,7 +18,7 @@ function Footer() {
         </a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/andres-pablo-cespedes/" target="_blank" rel="noreferrer">
+        <a href="mailto:andres.pablo.cespedes@gmail.com" target="_blank" rel="noreferrer">
           <img src={`${process.env.PUBLIC_URL}/img/email.png`} alt="mail" />
           <p>andres.pablo.cespedes@gmail.com</p>
         </a>
