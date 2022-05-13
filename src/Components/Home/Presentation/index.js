@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import styles from './presentation.module.css';
 
 function Presentation() {
   return (
-    <section>
+    <section className={styles.main}>
       <div>
         <h1>👋 Hi, I'm Andrés Céspedes.</h1>
         <h2>👨‍💻 A fullstack Javascript developer from Argentina.</h2>
