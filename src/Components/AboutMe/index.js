@@ -10,7 +10,6 @@ function AboutMe() {
         <p>About Me</p>
       </div>
       <NavBar />
-
     </>
   );
 }

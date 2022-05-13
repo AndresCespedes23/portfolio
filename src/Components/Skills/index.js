@@ -7,12 +7,24 @@ function Skills() {
   return (
     <>
       <section className={styles.main}>
-        <div>
-          <h2>My tech stack</h2>
-          <img className={styles.mongo} src={`${process.env.PUBLIC_URL}/img/mern/mongodb-icon-1.svg`} alt="mongodb" />
-          <img className={styles.express} src={`${process.env.PUBLIC_URL}/img/mern/express.png`} alt="expressjs" />
-          <img className={styles.react} src={`${process.env.PUBLIC_URL}/img/mern/react.png`} alt="react" />
-          <img className={styles.node} src={`${process.env.PUBLIC_URL}/img/mern/nodejs.svg`} alt="nodejs" />
+        <h2>Tech stack</h2>
+        <div className={styles.stack}>
+          <div className={styles.tech}>
+            <img className={styles.mern} src={`${process.env.PUBLIC_URL}/img/mern/mongodb.svg`} alt="mongodb" />
+            <p>MongoDB Atlas</p>
+          </div>
+          <div className={styles.tech}>
+            <img className={styles.mern} src={`${process.env.PUBLIC_URL}/img/mern/express.png`} alt="expressjs" />
+            <p>ExpressJS</p>
+          </div>
+          <div className={styles.tech}>
+            <img className={styles.mern} src={`${process.env.PUBLIC_URL}/img/mern/react.png`} alt="react" />
+            <p>ReactJS</p>
+          </div>
+          <div className={styles.tech}>
+            <img className={styles.mern} src={`${process.env.PUBLIC_URL}/img/mern/nodejs.svg`} alt="nodejs" />
+            <p>NodeJS</p>
+          </div>
         </div>
         <div>
           <h2>What I do with the M.E.R.N stack ?</h2>

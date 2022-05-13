@@ -14,7 +14,7 @@ function Pages() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/projects" element={<AllProjects />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/tech" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
