@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from '../Shared/DesktopNavBar';
 import Form from './Form';
 import styles from './contact.module.css';
+import Loading from '../Shared/Loading';
 
 function Contact() {
   return (
@@ -28,6 +29,7 @@ function Contact() {
         </div>
       </section>
       <NavBar />
+      <Loading />
     </>
   );
 }

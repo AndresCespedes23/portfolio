@@ -9,7 +9,7 @@ function Loading() {
   const loadingTheather = () => {
     setTimeout(() => {
       setLoading(true);
-    }, 5000);
+    }, 1000);
   };
   window.addEventListener('load', loadingTheather);
 

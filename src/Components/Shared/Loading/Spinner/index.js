@@ -1,9 +1,10 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
+import { TailSpin } from 'react-loader-spinner';
 
 function Spinner() {
   return (
-    <div>k</div>
+    <TailSpin ariaLabel="loading-indicator" />
   );
 }
 

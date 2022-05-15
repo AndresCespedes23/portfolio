@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from '../Shared/DesktopNavBar';
 import ProjectsBtns from './ProjectsButtons';
 import styles from './all-projects.module.css';
+import Loading from '../Shared/Loading';
 
 function AllProjects() {
   return (
@@ -152,6 +153,7 @@ function AllProjects() {
         </article>
       </section>
       <NavBar />
+      <Loading />
     </>
   );
 }
