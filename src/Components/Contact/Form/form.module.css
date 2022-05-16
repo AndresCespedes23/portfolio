@@ -9,13 +9,10 @@ button {
 }
 input {
     margin: 1rem 0rem;
-    padding-right: 43vw;
 }
 textarea {
     resize: none;
 }
 @media only screen and (min-width: 992px) {
-    input {
-        padding-right: 15.8vw;
-      }
+   
     }

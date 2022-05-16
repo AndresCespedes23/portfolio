@@ -3,7 +3,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 8rem;
+    background: linear-gradient(
+        54deg,#0043AE 34%,rgba(255, 255, 255, 0.911));
+    color: white;
 }
 .presentation {
     display: flex;
@@ -30,13 +32,60 @@
 .contactIcons {
     padding-right: 5vw;
 }
+.customShapeDividerBottom1652666792 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.customShapeDividerBottom1652666792 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 238px;
+}
+
+.customShapeDividerBottom1652666792 .shapeFill {
+    fill: #FFFFFF;
+}
+
+.customShapeDividerTop1652667296 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.customShapeDividerTop1652667296 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 238px;
+}
+
+.customShapeDividerTop1652667296 .shapeFill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .customShapeDividerBottom1652666792 svg {
+        width: calc(100% + 1.3px);
+        height: 92px;
+    }
+    .customShapeDividerTop1652667296 svg {
+        width: calc(100% + 1.3px);
+        height: 92px;
+    }
+}
 @media only screen and (min-width: 992px) {
-    .main {
-        margin-left: 6rem;
-        padding: 2rem;
-      }
       .presentation p {
         padding: 0rem 20rem;
-    
     }
     }

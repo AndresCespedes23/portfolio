@@ -1,4 +1,8 @@
-h3 {
+.main {
+    background: #0043AE;
+    color:white;
+}
+.title {
     display: flex;
     justify-content: center;
     margin: 2rem 0rem;
@@ -19,10 +23,108 @@ p {
     margin: 3rem;
     height:100%;
 }
+.customShapeDividerBottom1652666792 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.customShapeDividerBottom1652666792 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 238px;
+}
+
+.customShapeDividerBottom1652666792 .shapeFill {
+    fill: #FFFFFF;
+}
+
+.customShapeDividerTop1652667296 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.customShapeDividerTop1652667296 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 238px;
+}
+
+.customShapeDividerTop1652667296 .shapeFill {
+    fill: #FFFFFF;
+}
+.customShapeDividerTop1652668665 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.customShapeDividerTop1652668665 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 238px;
+}
+
+.customShapeDividerTop1652668665 .shapeFill {
+    fill: #FFFFFF;
+}
+.customShapeDividerBottom1652668866 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.customShapeDividerBottom1652668866 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 238px;
+}
+
+.customShapeDividerBottom1652668866 .shapeFill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .customShapeDividerBottom1652666792 svg {
+        width: calc(100% + 1.3px);
+        height: 92px;
+    }
+    .customShapeDividerTop1652667296 svg {
+        width: calc(100% + 1.3px);
+        height: 92px;
+    }
+    .customShapeDividerTop1652668665 svg {
+        width: calc(100% + 1.3px);
+        height: 92px;
+    }
+    .customShapeDividerBottom1652668866 svg {
+        width: calc(100% + 1.3px);
+        height: 92px;
+    }
+}
 @media only screen and (min-width: 992px) {
     .main {
         margin-left: 5rem;
-        padding: 1rem;
       }
     .project {
         display: flex;
