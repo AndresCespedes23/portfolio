@@ -3,6 +3,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 1rem;
+}
+.title {
+    padding: 0.5rem;
+    background: black;
+    border-radius: 10%;
 }
 button {
     width: 100%;
@@ -13,6 +19,3 @@ input {
 textarea {
     resize: none;
 }
-@media only screen and (min-width: 992px) {
-   
-    }

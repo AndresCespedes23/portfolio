@@ -3,8 +3,8 @@
     font-family: 'Open Sans';
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #004FBB;
-    --bg-secondary: #0043AE;
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #131313;
     --transition-speed: 600ms;
   }
   .navbar::-webkit-scrollbar {
@@ -58,11 +58,11 @@
   }
   
   .faPrimary {
-    color: #0068D7;
+    color: #9b9a9c;
   }
   
   .faSecondary {
-    color: #0075E4;
+    color: #cac9cd;
   }
   
   .faPrimary,
