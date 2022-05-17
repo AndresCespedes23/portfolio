@@ -1,3 +1,10 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 700;
+}
 .main {
     background-image: url(../../../public/img/svg/low-poly-grid-haikei\ \(4\).svg);
     background-repeat: no-repeat;

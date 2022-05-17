@@ -1,4 +1,35 @@
-.btns {
+.accordion {
+    padding: 2rem;
+}
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #131313;
+    cursor: pointer;
+  }
+  
+  .accordionHeader:hover {
+    background-color: #eee;
+  }
+  
+  .accordionImage {
+    height: 5rem;
+  }
+  
+  .accordionIndicator {
+    font-size: 30px;
+  }
+  
+  .accordionBody {
+    text-align: left;
+    font-size: 20px;
+    padding: 1rem;
+    background: #1a1a1a;
+  }
+
+  .btns {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,5 +57,8 @@ button {
 @media only screen and (min-width: 992px) {
     .btns {
         flex-direction: row;
+      }
+      .accordionImage {
+        height: 10rem;
       }
 }

@@ -6,7 +6,7 @@ function Form() {
   return (
     <section>
       <div className={styles.contactMe}>
-        <h2 className={styles.title}>Contact Me</h2>
+        <h2 className={styles.title}>Contact me!</h2>
         <form action="https://formsubmit.co/andres.pablo.cespedes@gmail.com" method="POST">
           <div>
             <input placeholder="Name*" type="text" name="name" required />
