@@ -1,14 +1,16 @@
 /* eslint-disable react/jsx-filename-extension */
-/* eslint-disable react/react-in-jsx-scope */
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../Components/Home';
 import AboutMe from '../Components/AboutMe';
 import AllProjects from '../Components/AllProjects';
 import Contact from '../Components/Contact';
+import ScrollTop from './ScrollTop';
 
 function Pages() {
   return (
     <BrowserRouter>
+      <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />

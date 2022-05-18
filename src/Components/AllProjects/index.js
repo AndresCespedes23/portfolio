@@ -20,7 +20,7 @@ function AllProjects() {
   return (
     <>
       <section className={styles.main}>
-        <h2 className={styles.title}>Portfolio</h2>
+        <h2 className={styles.title}>💼 Portfolio 💼</h2>
         <div>
           {projects?.map((project) => (
             <Accordion

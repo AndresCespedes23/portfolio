@@ -10,7 +10,7 @@ function AboutMe() {
   return (
     <>
       <div className={styles.main}>
-        <h2 className={styles.title}>About Me</h2>
+        <h2 className={styles.title}>🙋‍♂️ About Me 🙋‍♂️</h2>
         <div>
           {personalInfo?.map((personal) => (
             <PersonalInfo {...personal} />

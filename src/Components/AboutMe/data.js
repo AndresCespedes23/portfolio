@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 export const personalInfo = [
   {
-    img: 'https://i.imgur.com/29QbFix.jpeg',
+    emoji: '🎸',
     title: 'Music',
     info: `Lorem ipsum dolor sit amet, consectetur adipiscing
     elit. Sed pulvinar sapien sed enim blandit, quis
@@ -16,7 +16,7 @@ export const personalInfo = [
   },
 
   {
-    img: 'https://i.imgur.com/29QbFix.jpeg',
+    emoji: '🏆',
     title: 'Sports',
     info: `Lorem ipsum dolor sit amet, consectetur adipiscing
     elit. Sed pulvinar sapien sed enim blandit, quis
@@ -31,7 +31,7 @@ export const personalInfo = [
   },
 
   {
-    img: 'https://i.imgur.com/29QbFix.jpeg',
+    emoji: '👾',
     title: 'Geek',
     info: `Lorem ipsum dolor sit amet, consectetur adipiscing
     elit. Sed pulvinar sapien sed enim blandit, quis

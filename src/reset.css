@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nobile&display=swap');
+
 html,
 body,
 div,
@@ -83,7 +85,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font: 'Nobile', sans-serif;
   vertical-align: baseline;
 }
 

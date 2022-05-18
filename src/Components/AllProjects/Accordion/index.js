@@ -10,6 +10,7 @@ function Accordion({
   accordionOpened,
   image,
   title,
+  techStack,
   body,
   sourceCode,
   liveProject,
@@ -24,11 +25,16 @@ function Accordion({
         <div>
           <img alt="project" className={styles.accordionImage} src={image} />
         </div>
-        <h2>{title}</h2>
+        <h2 className={styles.accordionTitle}>{title}</h2>
         <div className={styles.accordionIndicator}>{isOpened ? '-' : '+'}</div>
       </div>
       {isOpened && (
       <div className={styles.accordionBody}>
+        <div className={styles.tech}>
+          <h3 className={styles.techTitle}>Tech:</h3>
+          {techStack}
+        </div>
+        <h4 className={styles.projectDescription}>Project Description:</h4>
         {body}
         <div className={styles.btns}>
           <div className={styles.btn}>

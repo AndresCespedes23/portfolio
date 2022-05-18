@@ -1,5 +1,6 @@
 .accordion {
     padding: 2rem;
+    color: white;
 }
 .accordionHeader {
     display: flex;
@@ -11,17 +12,32 @@
   }
   
   .accordionHeader:hover {
-    background-color: #eee;
+    background-color: rgb(78, 76, 76);
   }
-  
+  .accordionTitle {
+    font-weight: bold;
+    padding: 2rem;
+  }
   .accordionImage {
-    height: 5rem;
+    height: 4rem;
   }
   
   .accordionIndicator {
     font-size: 30px;
   }
-  
+  .techTitle {
+    padding: 1rem 0rem;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .tech {
+    padding: 2rem 0rem;
+  }
+  .projectDescription {
+    padding: 1rem 0rem;
+    font-size: larger;
+    font-weight: bold;
+  }
   .accordionBody {
     text-align: left;
     font-size: 20px;
@@ -31,10 +47,10 @@
 
   .btns {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center; 
     align-items: center;
     flex-direction: column;
-    margin: 3rem;
+    margin: 1rem;
 }
 .icons {
     margin-left: 0.4vw;
@@ -44,9 +60,8 @@
     background: white;
 }
 button {
-    margin: 1rem;
-    background-color: rgb(0, 0, 0);
-    border-radius: 10%;
+    margin: 1rem 0rem;
+    background-color: #131313;
     border: 1px solid white;
     color: white;
     font-size: 1rem;
@@ -54,8 +69,16 @@ button {
     padding: 1rem;
     cursor: pointer;
 }
+button:hover {
+  transform: scale(1.1);
+}
 @media only screen and (min-width: 992px) {
+    .accordionTitle {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
     .btns {
+        justify-content: space-evenly;
         flex-direction: row;
       }
       .accordionImage {

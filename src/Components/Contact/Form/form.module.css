@@ -3,19 +3,43 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1rem;
 }
 .title {
-    padding: 0.5rem;
+    padding: 1rem;
     background: black;
     border-radius: 10%;
+    font-size: 1rem;
 }
-button {
-    width: 100%;
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
 }
 input {
-    margin: 1rem 0rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    background: #1f1e1e;
+    color: white;
+    border-radius: 10%;
 }
 textarea {
     resize: none;
+    background: #1f1e1e;
+    color: white;
+    border-radius: 5%;
 }
+button {
+    width: 100%;
+    border-radius: 5%;
+}
+
+@media only screen and (min-width: 992px) {
+   .title {
+        font-size: 2.5rem;
+   }
+  }

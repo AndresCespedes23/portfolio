@@ -8,7 +8,7 @@ function NavBar() {
     <nav className={styles.navbar}>
       <ul className={styles.navbarNav}>
         <li className={styles.logo}>
-          <span className={styles.logoText}>Menu</span>
+          <p className={styles.logoText}>Menu</p>
           <svg
             aria-hidden="true"
             focusable="false"

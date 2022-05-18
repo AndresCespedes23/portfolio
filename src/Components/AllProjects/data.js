@@ -4,6 +4,7 @@ export const projects = [
     title: 'Bennu',
     image:
         'https://i.imgur.com/PCfPUCO.png',
+    techStack: 'React, Styled Components',
     body: `Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed pulvinar sapien sed enim blandit, quis
         mollis leo pretium. Phasellus non dui neque.
@@ -21,6 +22,7 @@ export const projects = [
     title: 'Crypto Tracker',
     image:
         'https://i.imgur.com/37Xgb0f.png',
+    techStack: 'React, Material UI',
     body: `Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed pulvinar sapien sed enim blandit, quis
         mollis leo pretium. Phasellus non dui neque.
@@ -39,6 +41,7 @@ export const projects = [
     title: 'Mindset',
     image:
         'https://i.imgur.com/0vbPvwu.png',
+    techStack: 'MongoDB Atlas, Express, React, Node, Redux, React Router Dom',
     body: `Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed pulvinar sapien sed enim blandit, quis
         mollis leo pretium. Phasellus non dui neque.
@@ -57,6 +60,7 @@ export const projects = [
     title: 'Los Angeles Times',
     image:
         'https://i.imgur.com/Z5YrW82.png',
+    techStack: 'HTML, CSS',
     body: `Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed pulvinar sapien sed enim blandit, quis
         mollis leo pretium. Phasellus non dui neque.
@@ -75,6 +79,7 @@ export const projects = [
     title: 'Carpincho News',
     image:
         'https://i.imgur.com/X1CsqWe.png',
+    techStack: 'HTML, CSS',
     body: `Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed pulvinar sapien sed enim blandit, quis
         mollis leo pretium. Phasellus non dui neque.
@@ -93,6 +98,7 @@ export const projects = [
     title: 'Javascript Exercises',
     image:
         'https://i.imgur.com/xOfSUFg.png',
+    techStack: 'HTML, CSS, Javascript',
     body: `Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed pulvinar sapien sed enim blandit, quis
         mollis leo pretium. Phasellus non dui neque.
@@ -111,6 +117,7 @@ export const projects = [
     title: 'First HTML page',
     image:
         'https://i.imgur.com/C59XgMb.png',
+    techStack: 'HTML',
     body: `Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed pulvinar sapien sed enim blandit, quis
         mollis leo pretium. Phasellus non dui neque.
@@ -126,9 +133,10 @@ export const projects = [
   },
 
   {
-    title: 'first dapp',
+    title: 'First dapp',
     image:
         'https://i.imgur.com/LY3d1gi.png',
+    techStack: 'HTML, Moralis SDK',
     body: `Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed pulvinar sapien sed enim blandit, quis
         mollis leo pretium. Phasellus non dui neque.

@@ -4,13 +4,13 @@ import React from 'react';
 import styles from './personal-info.module.css';
 
 function PersonalInfo({
-  img,
+  emoji,
   title,
   info,
 }) {
   return (
     <div className={styles.main}>
-      <img className={styles.image} alt="personal-info" src={img} />
+      <div className={styles.emoji}>{emoji}</div>
       <h2 className={styles.title}>{title}</h2>
       <p className={styles.info}>{info}</p>
     </div>

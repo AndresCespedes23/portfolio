@@ -1,20 +1,26 @@
 .main {
-  background-image: url(../../../public/img/svg/low-poly-grid-haikei\ \(3\).svg);
+  background-image: url(../../../public/img/svg/light-background.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: white;
+  color: black;
+  padding-bottom: 6rem;
 }
 
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: black;
+  padding: 4rem;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 992px) {
     .main {
         margin-left: 5rem;
+      }
+      .title {
+        font-size: 4rem;
       }
     }

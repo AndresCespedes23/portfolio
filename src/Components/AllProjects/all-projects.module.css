@@ -1,22 +1,16 @@
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    font-weight: 700;
-}
 .main {
-    background-image: url(../../../public/img/svg/low-poly-grid-haikei\ \(4\).svg);
+    background-image: url(../../../public/img/svg/light-background.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color:white;
+    color: black;
+    padding-bottom: 5rem;
 }
 .title {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
 }
 .project {
@@ -49,5 +43,8 @@ p {
 @media only screen and (min-width: 992px) {
     .main {
         margin-left: 5rem;
+      }
+      .title {
+        font-size: 4rem;
       }
 }
