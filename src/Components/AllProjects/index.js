@@ -24,6 +24,7 @@ function AllProjects() {
         <div>
           {projects?.map((project) => (
             <Accordion
+              key={project.title}
               accordionOpened={accordionOpened}
               setAccordionOpened={toggleAccordionOpened}
               {...project}

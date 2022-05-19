@@ -5,10 +5,10 @@
     flex-direction: column;
 }
 .title {
-    padding: 1rem;
-    background: black;
-    border-radius: 10%;
+    padding: 0.5rem;
     font-size: 1rem;
+    background: #131313;
+    border-radius: 10%;
 }
 .form {
     display: flex;
@@ -23,13 +23,11 @@
 input {
     margin: 1rem;
     padding: 0.5rem;
-    background: #1f1e1e;
     color: white;
     border-radius: 10%;
 }
 textarea {
     resize: none;
-    background: #1f1e1e;
     color: white;
     border-radius: 5%;
 }
@@ -39,6 +37,7 @@ button {
 }
 
 @media only screen and (min-width: 992px) {
+    
    .title {
         font-size: 2.5rem;
    }

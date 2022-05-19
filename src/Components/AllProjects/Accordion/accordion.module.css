@@ -33,6 +33,9 @@
   .tech {
     padding: 2rem 0rem;
   }
+  .techInfo {
+    font-style: italic;
+  }
   .projectDescription {
     padding: 1rem 0rem;
     font-size: larger;

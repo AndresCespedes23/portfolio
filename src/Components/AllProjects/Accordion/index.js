@@ -32,7 +32,7 @@ function Accordion({
       <div className={styles.accordionBody}>
         <div className={styles.tech}>
           <h3 className={styles.techTitle}>Tech:</h3>
-          {techStack}
+          <p className={styles.techInfo}>{techStack}</p>
         </div>
         <h4 className={styles.projectDescription}>Project Description:</h4>
         {body}
