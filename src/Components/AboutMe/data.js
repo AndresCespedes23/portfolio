@@ -3,45 +3,13 @@ export const personalInfo = [
   {
     emoji: '🎸',
     title: 'Music',
-    info: `Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. Sed pulvinar sapien sed enim blandit, quis
-    mollis leo pretium. Phasellus non dui neque.
-    Maecenas tincidunt ipsum vel nulla suscipit
-    interdum. Sed varius arcu et imperdiet iaculis.
-    Vestibulum mattis magna vitae scelerisque
-    porttitor. Class aptent taciti sociosqu ad litora
-    torquent per conubia nostra, per inceptos
-    himenaeos. Etiam semper ligula a tellus volutpat,
-    et aliquet nibh commodo.`,
+    info: 'I am a guitar player. I like to play rock, punk and heavy metal music. I am a huge fan of Green Day and Van Halen. I am inclined to play the rhythmic guitar because I like to compose riffs. Although, I like to play around doing a few guitar solos.',
   },
 
   {
-    emoji: '🏆',
+    emoji: '🤽',
     title: 'Sports',
-    info: `Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. Sed pulvinar sapien sed enim blandit, quis
-    mollis leo pretium. Phasellus non dui neque.
-    Maecenas tincidunt ipsum vel nulla suscipit
-    interdum. Sed varius arcu et imperdiet iaculis.
-    Vestibulum mattis magna vitae scelerisque
-    porttitor. Class aptent taciti sociosqu ad litora
-    torquent per conubia nostra, per inceptos
-    himenaeos. Etiam semper ligula a tellus volutpat,
-    et aliquet nibh commodo.`,
+    info: 'I play Waterpolo. It is a team sport that can be described like handball inside a swimming pool. I am a very competitive player; I train to win an encourage my teammates to do the same. I believe that how you train is how you perform in the match. I am a referee and I was a coach. I am a very good team player and I am a very good athlete.',
   },
 
-  {
-    emoji: '👾',
-    title: 'Geek',
-    info: `Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. Sed pulvinar sapien sed enim blandit, quis
-    mollis leo pretium. Phasellus non dui neque.
-    Maecenas tincidunt ipsum vel nulla suscipit
-    interdum. Sed varius arcu et imperdiet iaculis.
-    Vestibulum mattis magna vitae scelerisque
-    porttitor. Class aptent taciti sociosqu ad litora
-    torquent per conubia nostra, per inceptos
-    himenaeos. Etiam semper ligula a tellus volutpat,
-    et aliquet nibh commodo.`,
-  },
 ];

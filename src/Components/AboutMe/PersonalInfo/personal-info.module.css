@@ -14,11 +14,21 @@
         font-weight: bold;
     }
     .info {
+        margin: 1rem;
         padding: 3rem;
+        border-radius: 10%;
         font-size: 1.2rem;
+        color:white;
+        background: black;
     }
 @media only screen and (min-width: 992px) {
     .emoji {
         font-size: 8rem;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .info {
+        margin: 2rem 5rem;
     }
     }

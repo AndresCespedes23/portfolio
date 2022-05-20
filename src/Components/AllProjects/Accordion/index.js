@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
@@ -32,7 +33,16 @@ function Accordion({
       <div className={styles.accordionBody}>
         <div className={styles.tech}>
           <h3 className={styles.techTitle}>Tech:</h3>
-          <p className={styles.techInfo}>{techStack}</p>
+          {techStack?.map((data) => (
+            <img
+              alt="project"
+              className={styles.techImg}
+              src={data.url}
+              key={data.title}
+              {...data}
+            />
+          ))}
+
         </div>
         <h4 className={styles.projectDescription}>Project Description:</h4>
         {body}

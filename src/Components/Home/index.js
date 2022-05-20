@@ -11,7 +11,7 @@ function Home() {
       <section className={styles.main}>
         <div className={styles.presentation}>
           <h1 className={styles.title}>👋 Hi, I'm Andrés Céspedes 👋</h1>
-          <img className={styles.profile} src={`${process.env.PUBLIC_URL}/img/yo - copia.png`} alt="andres-cespedes" />
+          <img className={styles.profile} src={`${process.env.PUBLIC_URL}/img/profile.png`} alt="andres-cespedes" />
           <h2 className={styles.subtitle}>👨‍💻 A fullstack software developer from Argentina 👨‍💻</h2>
           <p>
             I enjoy solving complex problems.
