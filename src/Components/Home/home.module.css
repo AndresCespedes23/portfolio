@@ -24,16 +24,14 @@
     padding: 1rem;
     background: black;
     border-radius: 10%;
-    font-size: 0.5;
 
 }
 .title, .subtitle{
-    margin: 0.5rem;
-    padding: 0.5rem;
+    padding: 2rem;
     background: #000000;
     border-radius: 10%;
     font-weight: 400;
-    font-size: 0.7rem;
+    font-size:1rem;
 }
 .profile {
     height: 256px;
