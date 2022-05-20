@@ -16,6 +16,7 @@
   }
   .accordionTitle {
     font-weight: bold;
+    font-size: 0.9rem;
     padding: 2rem;
   }
   .accordionImage {
