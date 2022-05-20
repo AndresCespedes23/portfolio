@@ -5,9 +5,8 @@
     flex-direction: column;
 }
 .title {
-    
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     background: #131313;
     border-radius: 10%;
 }
