@@ -18,8 +18,8 @@
         padding: 3rem;
         border-radius: 10%;
         font-size: 1.2rem;
-        color:white;
-        background: black;
+        color:#000;
+        background: #D4AF37;
     }
 @media only screen and (min-width: 992px) {
     .emoji {

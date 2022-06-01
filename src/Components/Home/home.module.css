@@ -3,11 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../../../public/img/svg/light-background.svg);
+    background-image: url(../../../public/img/svg/red-background.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #000;
     padding-bottom: 4rem;
 }
 .presentation {
@@ -22,35 +22,34 @@
 .presentation p {
     margin: 1rem;
     padding: 1rem;
-    background: black;
+    background: #D4AF37;
     border-radius: 10%;
 
 }
 .title, .subtitle{
     padding: 2rem;
-    background: #000000;
+    background: #D4AF37;
     border-radius: 10%;
     font-weight: 400;
     font-size:1rem;
 }
 .profile {
     height: 256px;
-    border: 5px solid black;
-    border-radius: 35%;
+    border: 5px solid #D4AF37;
+    border-radius: 70%;
 }
 
 @media only screen and (min-width: 992px) {
     .title, .subtitle{
         padding: 0.5rem;
-        background: #000000;
-        border: 1px solid black;
+        background: #D4AF37;
         border-radius: 10%;
         font-weight: 400;
         font-size: 2rem;
     }
       .presentation p {
         margin: 0rem 20rem;
-        background: black;
+        background: #D4AF37;
         border-radius: 10%;
     }
         .contact {

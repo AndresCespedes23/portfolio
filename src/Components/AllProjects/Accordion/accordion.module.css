@@ -1,18 +1,18 @@
 .accordion {
     padding: 2rem;
-    color: white;
+    color: #000;
 }
 .accordionHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: #131313;
+    background: #D4AF37;
     cursor: pointer;
   }
   
   .accordionHeader:hover {
-    background-color: rgb(78, 76, 76);
+    background-color: #FFE55C;
   }
   .accordionTitle {
     font-weight: bold;
@@ -46,7 +46,7 @@
     text-align: left;
     font-size: 20px;
     padding: 1rem;
-    background: #1a1a1a;
+    background:  #a88b2b;
   }
 
   .btns {
@@ -62,11 +62,12 @@
     border-radius: 10%;
     height: 0.7rem;
     background: white;
+    border: 1px solid #000;
 }
 button {
     margin: 1rem 0rem;
     background-color: #131313;
-    border: 1px solid white;
+    border: 1px solid #000;
     color: white;
     font-size: 1rem;
     font-weight: 700;
