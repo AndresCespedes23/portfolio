@@ -1,25 +1,40 @@
+/* eslint-disable quotes */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable react/jsx-filename-extension */
-import React from 'react';
-import styles from './form.module.css';
+import React from "react";
+import styles from "./form.module.css";
 
 function Form() {
   return (
     <section>
       <div className={styles.contactMe}>
         <h2 className={styles.title}>Contact me!</h2>
-        <form className={styles.form} action="https://formsubmit.co/andres.pablo.cespedes@gmail.com" method="POST">
+        <form
+          className={styles.form}
+          action="https://formsubmit.co/andres.pablo.cespedes@gmail.com"
+          method="POST"
+        >
           <div className={styles.info}>
-            <input placeholder="Name*" type="text" name="name" required />
+            <label>Name</label>
+            <input placeholder="..." type="text" name="name" required />
           </div>
           <div>
             <input type="hidden" name="_subject" value="New Mail !!!" />
           </div>
           <div className={styles.info}>
-            <input placeholder="Email*" type="email" name="email" required />
+            <label>Email</label>
+            <input placeholder="..." type="email" name="email" required />
           </div>
           <div className={styles.info}>
-            <textarea placeholder="Write your message here*" name="message" maxLength="140" rows="5" cols="24" required />
+            <label>Please, send a message!</label>
+            <textarea
+              placeholder="280 characters max ..."
+              name="message"
+              maxLength="280"
+              rows="10"
+              cols="24"
+              required
+            />
           </div>
           <button type="submit">📨 Send 📨</button>
         </form>

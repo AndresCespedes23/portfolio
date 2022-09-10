@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nobile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap');
 
 html,
 body,
@@ -85,7 +85,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: 'Nobile', sans-serif;
+  font-family: 'Maiden Orange', sans-serif;
   vertical-align: baseline;
 }
 

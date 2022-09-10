@@ -1,10 +1,8 @@
 .main {
-    background-image: url(../../../public/img/svg/red-background.svg);
+    background-image: url(../../../public/img/svg/space.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    color: black;
-    padding-bottom: 5rem;
+    color: #FFFFFF;
 }
 .title {
     display: flex;
@@ -41,9 +39,6 @@ p {
 }
 
 @media only screen and (min-width: 992px) {
-    .main {
-        margin-left: 5rem;
-      }
       .title {
         font-size: 4rem;
       }
