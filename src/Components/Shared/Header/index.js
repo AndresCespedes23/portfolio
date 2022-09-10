@@ -12,17 +12,19 @@ function Header() {
         src={`${process.env.PUBLIC_URL}/img/svg/tintin-rocket.png`}
         alt="tintin rocket"
       />
-      <ul>
-        <Link className={styles.navLinks} to="/">
-          Home
-        </Link>
-        <Link className={styles.navLinks} to="/projects">
-          Portfolio
-        </Link>
-        <Link className={styles.navLinks} to="/contact">
-          Contact
-        </Link>
-      </ul>
+      <nav>
+        <ul>
+          <Link className={styles.navLinks} to="/">
+            Home
+          </Link>
+          <Link className={styles.navLinks} to="/portfolio">
+            Portfolio
+          </Link>
+          <Link className={styles.navLinks} to="/contact">
+            Contact
+          </Link>
+        </ul>
+      </nav>
     </header>
   );
 }

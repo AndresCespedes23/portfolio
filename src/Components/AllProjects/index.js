@@ -7,6 +7,7 @@ import Accordion from "./Accordion";
 import { projects } from "./data";
 import styles from "./all-projects.module.css";
 import Footer from "../Shared/Footer";
+import MobileNav from "../Shared/MobileNavBar";
 
 function AllProjects() {
   const [accordionOpened, setAccordionOpened] = useState(null);
@@ -35,6 +36,7 @@ function AllProjects() {
           ))}
         </div>
       </section>
+      <MobileNav />
       <Footer />
     </>
   );

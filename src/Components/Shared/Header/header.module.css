@@ -1,9 +1,9 @@
 .header {
-    display:flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     background-color: #D4AF37;
-    width: 100%
+    width: 100%;
 }
 .logo {
     margin: 1rem;
@@ -16,6 +16,9 @@
     text-decoration: none;
 }
 @media only screen and (min-width: 992px) {
+    .header {
+        display: flex;
+    }
     .logo {
         height: 64px;
     }

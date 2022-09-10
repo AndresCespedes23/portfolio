@@ -11,7 +11,7 @@ function Footer() {
         src={`${process.env.PUBLIC_URL}/img/svg/hollowed-boxes.svg`}
         alt="tintin rocket"
       />
-      <p> Copyright © 2022 Andrés Céspedes. All rights reserved.</p>
+      <p className={styles.copyright}> Copyright © 2022 Andrés Céspedes. All rights reserved.</p>
       <img
         className={styles.logo}
         src={`${process.env.PUBLIC_URL}/img/svg/hollowed-boxes.svg`}

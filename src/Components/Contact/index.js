@@ -6,6 +6,7 @@ import SocialMedia from "../Shared/SocialMedia";
 import Form from "./Form";
 import styles from "./contact.module.css";
 import Footer from "../Shared/Footer";
+import MobileNav from "../Shared/MobileNavBar";
 
 function Contact() {
   return (
@@ -15,6 +16,7 @@ function Contact() {
         <Form />
         <SocialMedia />
         <Footer />
+        <MobileNav />
       </section>
     </>
   );

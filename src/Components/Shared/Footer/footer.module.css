@@ -1,12 +1,21 @@
 .footer {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #D4AF37;
-    color: #000000;
-    width: 100%
+    display: none;
 }
-.logo {
-    margin: 0.5rem;
-    height: 32px;
+
+@media only screen and (min-width: 992px) {
+    .footer {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #D4AF37;
+        color: #000000;
+        width: 100%
+    }
+    .logo {
+        margin: 0.5rem;
+        height: 32px;
+    }
+    p {
+        font-size: 1rem;
+    }
 }

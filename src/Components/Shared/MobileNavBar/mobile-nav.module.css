@@ -1,0 +1,18 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background: #D4AF37;
+    bottom: 0;
+    width: 100%
+}
+.navLinks {
+    margin: 2rem;;
+}
+@media only screen and (min-width: 992px) {
+    .navbar {
+        display: none;
+    }
+}

@@ -13,7 +13,7 @@ function Pages() {
       <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<AllProjects />} />
+        <Route path="/portfolio" element={<AllProjects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
