@@ -8,6 +8,7 @@ import { projects } from "./data";
 import styles from "./all-projects.module.css";
 import Footer from "../Shared/Footer";
 import MobileNav from "../Shared/MobileNavBar";
+import Loading from "../Shared/Loading";
 
 function AllProjects() {
   const [accordionOpened, setAccordionOpened] = useState(null);
@@ -38,6 +39,7 @@ function AllProjects() {
       </section>
       <MobileNav />
       <Footer />
+      <Loading />
     </>
   );
 }

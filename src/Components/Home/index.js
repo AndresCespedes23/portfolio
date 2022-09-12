@@ -4,6 +4,7 @@
 import React from "react";
 import Footer from "../Shared/Footer";
 import Header from "../Shared/Header";
+import Loading from "../Shared/Loading";
 import MobileNav from "../Shared/MobileNavBar";
 import SocialMedia from "../Shared/SocialMedia";
 import styles from "./home.module.css";
@@ -15,9 +16,9 @@ function Home() {
       <section className={styles.main}>
         <div className={styles.presentation}>
           <div className={styles.titles}>
-            <h1 className={styles.title}>👋 Hi, I'm Andrés Céspedes 👋</h1>
+            <h1 className={styles.title}>👋 Hi, I'm Andrés Céspedes </h1>
             <h2 className={styles.subtitle}>
-              A fullstack software developer from Argentina
+              👨‍💻 A fullstack software developer from Argentina
             </h2>
           </div>
           <img
@@ -25,12 +26,13 @@ function Home() {
             src={`${process.env.PUBLIC_URL}/img/profile-color.jpg`}
             alt="andres-cespedes"
           />
-          <div className={styles.emoji}>👨‍💻</div>
+          <div className={styles.emoji}>⚡</div>
           <p>I enjoy solving complex problems and craft astonishing apps.</p>
         </div>
         <SocialMedia />
         <Footer />
         <MobileNav />
+        <Loading />
       </section>
     </>
   );
