@@ -4,7 +4,6 @@
 import React from "react";
 import Footer from "../Shared/Footer";
 import Header from "../Shared/Header";
-import Loading from "../Shared/Loading";
 import MobileNav from "../Shared/MobileNavBar";
 import SocialMedia from "../Shared/SocialMedia";
 import styles from "./home.module.css";
@@ -32,7 +31,6 @@ function Home() {
         <SocialMedia />
         <Footer />
         <MobileNav />
-        <Loading />
       </section>
     </>
   );
