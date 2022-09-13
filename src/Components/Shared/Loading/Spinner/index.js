@@ -1,10 +1,11 @@
 /* eslint-disable quotes */
 /* eslint-disable react/jsx-filename-extension */
 import React from "react";
-import { InfinitySpin } from "react-loader-spinner";
 
 function Spinner() {
-  return <InfinitySpin width="200" color="#D4AF37" />;
+  return (
+    <img src={`${process.env.PUBLIC_URL}/img/rocket/12.gif`} alt="rocket" />
+  );
 }
 
 export default Spinner;

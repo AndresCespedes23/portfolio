@@ -6,6 +6,7 @@ import Footer from "../Shared/Footer";
 import Header from "../Shared/Header";
 import MobileNav from "../Shared/MobileNavBar";
 import SocialMedia from "../Shared/SocialMedia";
+import Loading from "../Shared/Loading";
 import styles from "./home.module.css";
 
 function Home() {
@@ -31,6 +32,7 @@ function Home() {
         <SocialMedia />
         <Footer />
         <MobileNav />
+        <Loading />
       </section>
     </>
   );
