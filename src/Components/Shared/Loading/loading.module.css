@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -1;
 }
 .modalContainerHidden {
     display: none;
+    z-index: -1;
 }
   .modal {
       display: block; /* Hidden by default */
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Sit on top */
+      position: fixed; /* Stay in place */ 
       left: 0;
       top: 0;
       width: 100%; /* Full width */

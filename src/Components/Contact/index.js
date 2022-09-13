@@ -7,7 +7,6 @@ import Form from "./Form";
 import styles from "./contact.module.css";
 import Footer from "../Shared/Footer";
 import MobileNav from "../Shared/MobileNavBar";
-import Loading from "../Shared/Loading";
 
 function Contact() {
   return (
@@ -18,7 +17,6 @@ function Contact() {
         <SocialMedia />
         <Footer />
         <MobileNav />
-        <Loading />
       </section>
     </>
   );
