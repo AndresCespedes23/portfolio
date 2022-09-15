@@ -17,7 +17,7 @@ function Home() {
           <div className={styles.titles}>
             <h1 className={styles.title}>👋 Hi, I'm Andrés Céspedes </h1>
             <h2 className={styles.subtitle}>
-              👨‍💻 A fullstack software developer from Argentina
+              👨‍💻 A self-taught fullstack software developer from Argentina
             </h2>
           </div>
           <img
@@ -26,7 +26,7 @@ function Home() {
             alt="andres-cespedes"
           />
           <div className={styles.emoji}>⚡</div>
-          <p>I enjoy solving complex problems and craft astonishing apps.</p>
+          <p>🎨 I enjoy solving complex problems and craft astonishing apps.</p>
         </div>
         <SocialMedia />
         <Footer />
