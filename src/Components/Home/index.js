@@ -26,7 +26,9 @@ function Home() {
             alt="andres-cespedes"
           />
           <div className={styles.emoji}>⚡</div>
-          <p>🎨 I enjoy solving complex problems and craft astonishing apps.</p>
+          <p>
+            🔨🎨 I enjoy solving complex problems and craft astonishing apps.
+          </p>
         </div>
         <SocialMedia />
         <Footer />
