@@ -15,15 +15,27 @@ function Form() {
           method="POST"
         >
           <div className={styles.info}>
-            <label>Name</label>
-            <input placeholder="..." type="text" name="name" required />
+            <label htmlFor="name">Name</label>
+            <input
+              id="name"
+              placeholder="Your name here ..."
+              type="text"
+              name="name"
+              required
+            />
           </div>
           <div>
             <input type="hidden" name="_subject" value="New Mail !!!" />
           </div>
           <div className={styles.info}>
-            <label>Email</label>
-            <input placeholder="..." type="email" name="email" required />
+            <label htmlFor="email">Email</label>
+            <input
+              id="email"
+              placeholder="Your email here ..."
+              type="email"
+              name="email"
+              required
+            />
           </div>
           <div className={styles.info}>
             <label>Please, send a message!</label>
