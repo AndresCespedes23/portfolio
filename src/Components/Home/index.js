@@ -25,7 +25,7 @@ function Home() {
             src={`${process.env.PUBLIC_URL}/img/profile-color.jpg`}
             alt="andres-cespedes"
           />
-          <div className={styles.emoji}>⚡</div>
+          <div className={styles.emoji}>🌞</div>
           <p>
             🔨🎨 I enjoy solving complex problems and craft astonishing apps.
           </p>
