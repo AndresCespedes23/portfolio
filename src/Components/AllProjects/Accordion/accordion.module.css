@@ -44,7 +44,7 @@
   }
   .accordionBody {
     text-align: left;
-    font-size: 20px;
+    font-size: 1.8rem;
     padding: 1rem;
     background:  #a88b2b;
   }
@@ -56,21 +56,13 @@
     flex-direction: column;
     margin: 1rem;
 }
-.icons {
-    margin-left: 0.4vw;
-    padding: 0.09rem;
-    border-radius: 10%;
-    height: 0.7rem;
-    background: white;
-    border: 1px solid #000;
-}
 button {
     margin: 1rem 0rem;
     background-color: #131313;
     border: 1px solid #000;
     color: white;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 800;
     padding: 1rem;
     cursor: pointer;
 }
