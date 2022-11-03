@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 1rem 1rem 4rem 1rem;
+    flex-direction: row;
+    padding: 0rem 1rem 6rem 1rem;
 }
 .contactIcons {
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
 }
 .icons {
     padding: 0.5rem;

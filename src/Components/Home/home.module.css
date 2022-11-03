@@ -18,14 +18,6 @@
     border-radius: 5%;
     -webkit-text-stroke: 1px #000000;
 }
-.emoji {
-    font-size: 2.5rem;
-}
-.presentation p {
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1.5rem;
-}
 .titles {
     display: flex;
     justify-content: center;
@@ -35,14 +27,21 @@
 .title, .subtitle{
     padding: 2rem;
     font-weight: 400;
-    font-size:1.6rem;
+    font-size: 2.4rem;
 }
 .profile {
     height: 256px;
     border: 5px solid #D4AF37;
     border-radius: 70%;
 }
-
+.emoji {
+    font-size: 2.5rem;
+}
+.presentation p {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
 @media only screen and (min-width: 992px) {
     .presentation {
         margin: 3rem;

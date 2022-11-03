@@ -43,12 +43,14 @@ function Form() {
               placeholder="280 characters max ..."
               name="message"
               maxLength="280"
-              rows="10"
+              rows="7"
               cols="24"
               required
             />
           </div>
-          <button type="submit">📨 Send 📨</button>
+          <button className={styles.sendBtn} type="submit">
+            📨 Send 📨
+          </button>
         </form>
       </div>
     </section>

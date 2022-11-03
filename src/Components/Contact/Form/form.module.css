@@ -29,27 +29,32 @@
     margin: 1rem;
 }
 input {
-    padding: 2rem;
-    color: #000000;
+    padding: 1rem 14rem 1rem 0.5rem;
     border: 3px solid #D4AF37 ;
 }
 textarea {
+    padding: 1rem 13rem 0rem 0.5rem;
     resize: none;
-    color: #000000;
     border: 3px solid #D4AF37 ;
 }
-button {
+.sendBtn {
     width: 100%;
     border-radius: 5%;
     background: #d4af37ea;
     color: #000;
     font-family: 'Maiden Orange', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 992px) {
    .title {
         font-size: 5rem;
+   }
+   input {
+    padding: 1rem 17rem 1rem 0.5rem;
+   }
+   textarea {
+    padding: 1rem 16rem 1rem 0.5rem;
    }
    button {
     font-size: 2rem;
