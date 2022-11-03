@@ -18,15 +18,15 @@
   }
   .accordionTitle {
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 2rem;
     padding: 2rem;
   }
   .accordionImage {
-    height: 5.5rem;
+    height: 7rem;
+    border: 1px solid black;
   }
-  
   .accordionIndicator {
-    font-size: 30px;
+    font-size: 3rem;
   }
   .techTitle {
     padding: 1rem 0rem;
@@ -46,7 +46,7 @@
   }
   .accordionBody {
     text-align: left;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding: 1rem;
     background:  #a88b2b;
   }
@@ -83,6 +83,6 @@ button:hover {
         flex-direction: row;
       }
       .accordionImage {
-        height: 10rem;
+        height: 25rem;
       }
 }

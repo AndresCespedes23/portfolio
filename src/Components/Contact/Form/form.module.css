@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1rem;
+    padding: 4rem;
     color: #000;
 }
 .title {
@@ -38,6 +38,7 @@ textarea {
     border: 3px solid #D4AF37 ;
 }
 .sendBtn {
+    width: 80%;
     border-radius: 5%;
     background: #d4af37ea;
     color: #000;

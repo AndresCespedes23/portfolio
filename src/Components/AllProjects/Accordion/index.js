@@ -24,14 +24,15 @@ function Accordion({
         onClick={() => setAccordionOpened(title)}
         className={styles.accordionHeader}
       >
-        <div>
-          <img alt="project" className={styles.accordionImage} src={image} />
-        </div>
         <h2 className={styles.accordionTitle}>{title}</h2>
         <div className={styles.accordionIndicator}>{isOpened ? "-" : "+"}</div>
       </div>
       {isOpened && (
         <div className={styles.accordionBody}>
+          <div>
+            <h2>Preview:</h2>
+            <img alt="project" className={styles.accordionImage} src={image} />
+          </div>
           <div className={styles.tech}>
             <h3 className={styles.techTitle}>Tech:</h3>
             {techStack?.map((data) => (

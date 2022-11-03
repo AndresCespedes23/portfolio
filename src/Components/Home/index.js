@@ -14,10 +14,10 @@ function Home() {
       <Header />
       <section className={styles.main}>
         <div className={styles.presentation}>
-          <div className={styles.titles}>
-            <h1 className={styles.title}>👋 Hi, I'm Andrés Céspedes </h1>
-            <h2 className={styles.subtitle}>
-              👨‍💻 A self-taught fullstack software developer from Argentina
+          <div className={styles.homeTitles}>
+            <h1 className={styles.homeTitle}>👋 Hi, I'm Andrés Céspedes.</h1>
+            <h2 className={styles.homeSubtitle}>
+              👨‍💻 A self-taught fullstack software developer from Argentina.
             </h2>
           </div>
           <img
