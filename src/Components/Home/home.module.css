@@ -46,7 +46,7 @@
     .presentation {
         margin: 3rem;
     }
-    .title, .subtitle{
+    .homeTitle, .HomeSubtitle{
         margin: 0.5rem;
         font-size: 3.5rem;
     }
