@@ -22,7 +22,7 @@ function Home() {
           </div>
           <img
             className={styles.profile}
-            src={`${process.env.PUBLIC_URL}/img/pro1.jpg`}
+            src={`${process.env.PUBLIC_URL}/img/pro1.jpeg`}
             alt="andres-cespedes"
           />
           <div className={styles.emoji}>🌟</div>
