@@ -12,7 +12,6 @@
     background: #D4AF37;
     cursor: pointer;
   }
-  
   .accordionHeader:hover {
     background-color: #FFE55C;
   }
@@ -20,6 +19,9 @@
     font-weight: bold;
     font-size: 2rem;
     padding: 2rem;
+  }
+  .projectLogo {
+    height: 5rem;
   }
   .accordionImage {
     height: 7rem;
@@ -56,23 +58,16 @@
     justify-content: center; 
     align-items: center;
     flex-direction: column;
-    margin: 1rem;
-    padding-bottom: 3rem;
 }
-button {
-    margin: 1rem 0rem;
-    background-color: #131313;
-    border: 1px solid #000;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 800;
-    padding: 1rem;
-    cursor: pointer;
-    font-family: 'Maiden Orange', sans-serif;
+.projectsLinks {
+  margin: 3rem;
+  cursor: pointer;
+  height: 5rem;
 }
-button:hover {
+.projectLinks:hover {
   transform: scale(1.1);
 }
+
 @media only screen and (min-width: 992px) {
     .accordionTitle {
       font-size: 2.5rem;

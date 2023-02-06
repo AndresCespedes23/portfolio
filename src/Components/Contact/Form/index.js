@@ -18,7 +18,7 @@ function Form() {
             <label htmlFor="name">Name</label>
             <input
               id="name"
-              placeholder="Your name here ..."
+              placeholder="Write your name here"
               type="text"
               name="name"
               required
@@ -31,7 +31,7 @@ function Form() {
             <label htmlFor="email">Email</label>
             <input
               id="email"
-              placeholder="Your email here ..."
+              placeholder="Write your email here"
               type="email"
               name="email"
               required
@@ -40,7 +40,7 @@ function Form() {
           <div className={styles.info}>
             <label>Please, send a message!</label>
             <textarea
-              placeholder="280 characters max ..."
+              placeholder="280 characters max"
               name="message"
               maxLength="280"
               rows="7"

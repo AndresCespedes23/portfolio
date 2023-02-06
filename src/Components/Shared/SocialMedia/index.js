@@ -11,11 +11,6 @@ function SocialMedia() {
         </a>
       </div>
       <div className={styles.contactIcons}>
-        <a href="mailto:andres.pablo.cespedes@gmail.com" target="_blank" rel="noreferrer">
-          <img className={styles.icons} src={`${process.env.PUBLIC_URL}/img/email.png`} alt="mail" />
-        </a>
-      </div>
-      <div className={styles.contactIcons}>
         <a href="https://www.linkedin.com/in/andres-pablo-cespedes/" target="_blank" rel="noreferrer">
           <img className={styles.icons} src={`${process.env.PUBLIC_URL}/img/linkedin.png`} alt="linkedin" />
         </a>

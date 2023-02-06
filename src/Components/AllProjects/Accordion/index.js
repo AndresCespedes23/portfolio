@@ -11,6 +11,7 @@ function Accordion({
   setAccordionOpened,
   accordionOpened,
   image,
+  logo,
   title,
   techStack,
   body,
@@ -24,7 +25,7 @@ function Accordion({
         onClick={() => setAccordionOpened(title)}
         className={styles.accordionHeader}
       >
-        <h2 className={styles.accordionTitle}>{title}</h2>
+        <img alt="logo" src={logo} className={styles.projectLogo} />
         <div className={styles.accordionIndicator}>{isOpened ? "-" : "+"}</div>
       </div>
       {isOpened && (
@@ -50,12 +51,20 @@ function Accordion({
           <div className={styles.btns}>
             <div className={styles.btn}>
               <a href={sourceCode} target="_blank" rel="noreferrer">
-                <button type="button">SOURCE CODE</button>
+                <img
+                  className={styles.projectsLinks}
+                  alt="github"
+                  src={`${process.env.PUBLIC_URL}/img/icons/github.png`}
+                />
               </a>
             </div>
             <div className={styles.btn}>
               <a href={liveProject} target="_blank" rel="noreferrer">
-                <button type="button">LIVE PROJECT</button>
+                <img
+                  className={styles.projectsLinks}
+                  alt="live project"
+                  src={`${process.env.PUBLIC_URL}/img/icons/share.png`}
+                />
               </a>
             </div>
           </div>

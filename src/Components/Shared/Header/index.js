@@ -7,7 +7,13 @@ import styles from "./header.module.css";
 function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>👨‍🚀</div>
+      <div>
+        <img
+          className={styles.logo}
+          src={`${process.env.PUBLIC_URL}/img/svg/tintin-rocket.png`}
+          alt="rocket"
+        />
+      </div>
       <nav>
         <ul>
           <Link className={styles.navLinks} to="/">
