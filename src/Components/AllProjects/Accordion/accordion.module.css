@@ -11,6 +11,8 @@
     padding: 10px;
     background: #D4AF37;
     cursor: pointer;
+    border:0;
+    border-radius: 9999px;
   }
   .accordionHeader:hover {
     background-color: #FFE55C;
@@ -22,10 +24,13 @@
   }
   .projectLogo {
     height: 5rem;
+    border:0;
+    border-radius: 9999px;
   }
   .accordionImage {
     height: 7rem;
     border: 1px solid black;
+    border-radius: 1%;
   }
   .accordionIndicator {
     font-size: 3rem;
@@ -47,10 +52,13 @@
     font-weight: bold;
   }
   .accordionBody {
+    margin: 0rem 3rem;
     text-align: left;
     font-size: 1.7rem;
     padding: 1rem;
     background:  #a88b2b;
+    border-bottom:0;
+    border-radius: 1%;
   }
 
   .btns {
@@ -58,14 +66,14 @@
     justify-content: center; 
     align-items: center;
     flex-direction: column;
-}
+  }
 .projectsLinks {
-  margin: 3rem;
+  margin: 1rem;
   cursor: pointer;
   height: 5rem;
 }
 .projectLinks:hover {
-  transform: scale(1.1);
+  opacity: .7;
 }
 
 @media only screen and (min-width: 992px) {

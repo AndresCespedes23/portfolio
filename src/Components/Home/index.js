@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-boolean-value */
 /* eslint-disable quotes */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-filename-extension */
@@ -17,7 +18,7 @@ function Home() {
           <div className={styles.homeTitles}>
             <h1 className={styles.homeTitle}>👋 Hi, I'm Andrés Céspedes.</h1>
             <h2 className={styles.homeSubtitle}>
-              👨‍💻 A self-taught fullstack software developer from Argentina.
+              👨‍💻 A fullstack software developer from Argentina.
             </h2>
           </div>
           <img
@@ -25,7 +26,7 @@ function Home() {
             src={`${process.env.PUBLIC_URL}/img/pro1.jpeg`}
             alt="andres-cespedes"
           />
-          <div className={styles.emoji}>🌟</div>
+          <div className={styles.emoji}>🚀</div>
           <p>
             🔨🎨 I enjoy solving complex problems and craft astonishing apps.
           </p>

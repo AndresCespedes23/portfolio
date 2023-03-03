@@ -15,34 +15,25 @@ function Form() {
           method="POST"
         >
           <div className={styles.info}>
-            <label htmlFor="name">Name</label>
-            <input
-              id="name"
-              placeholder="Write your name here"
-              type="text"
-              name="name"
-              required
-            />
+            <label className={styles.inputTitle} htmlFor="name">
+              Name
+            </label>
+            <input id="name" type="text" name="name" required />
           </div>
           <div>
             <input type="hidden" name="_subject" value="New Mail !!!" />
           </div>
           <div className={styles.info}>
-            <label htmlFor="email">Email</label>
-            <input
-              id="email"
-              placeholder="Write your email here"
-              type="email"
-              name="email"
-              required
-            />
+            <label className={styles.inputTitle} htmlFor="email">
+              Email
+            </label>
+            <input id="email" type="email" name="email" required />
           </div>
           <div className={styles.info}>
-            <label>Please, send a message!</label>
+            <label className={styles.inputTitle}>Please, send a message!</label>
             <textarea
-              placeholder="280 characters max"
               name="message"
-              maxLength="280"
+              maxLength="500"
               rows="7"
               cols="24"
               required

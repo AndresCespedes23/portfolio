@@ -7,6 +7,8 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
     color: #FFFFFF;
 }
 .presentation {

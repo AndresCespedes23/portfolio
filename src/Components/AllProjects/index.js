@@ -11,7 +11,6 @@ import MobileNav from "../Shared/MobileNavBar";
 
 function AllProjects() {
   const [accordionOpened, setAccordionOpened] = useState(null);
-
   const toggleAccordionOpened = (accordion) => {
     if (accordionOpened === accordion) {
       setAccordionOpened(null);

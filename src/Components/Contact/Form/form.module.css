@@ -12,7 +12,7 @@
     padding: 1rem;
     font-size: 2em;
     background: #D4AF37;
-    border-radius: 10%;
+    border-radius: 9999px;
 }
 .form {
     display: flex;
@@ -22,11 +22,15 @@
     font-size: 2rem;
     color: #FFFFFF;
     -webkit-text-stroke: 1px #000000;
+    
 }
 .info {
     display: flex;
     flex-direction: column;
     margin: 1rem;
+}
+.inputTitle {
+    padding-left: 2vw;
 }
 input {
     padding: 1rem 6rem 1rem 0.5rem;
@@ -37,13 +41,24 @@ textarea {
     resize: none;
     border: 3px solid #D4AF37 ;
 }
+input, textarea {
+    border-radius: 9999px;
+    outline: 0;
+}
 .sendBtn {
-    width: 80%;
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 50%;
     border-radius: 5%;
     background: #d4af37ea;
     color: #000;
     font-family: 'Maiden Orange', sans-serif;
     font-size: 2rem;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.sendBtn:hover {
+    opacity: .7;
 }
 
 @media only screen and (min-width: 992px) {

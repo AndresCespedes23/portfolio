@@ -2,6 +2,8 @@
     background-image: url(../../../public/img/svg/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
     color: #FFFFFF;
 }
 .title {
