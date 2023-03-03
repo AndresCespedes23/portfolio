@@ -31,14 +31,6 @@ p {
     border-radius: 3%;
     width:100%;
 }
-.projectDescription {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 3rem;
-    font-weight: bolder;
-}
 
 @media only screen and (min-width: 992px) {
       .title {

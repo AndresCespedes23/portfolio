@@ -48,7 +48,7 @@ input, textarea {
 .sendBtn {
     margin-top: 3rem;
     padding: 1rem;
-    width: 50%;
+    width: 75%;
     border-radius: 5%;
     background: #d4af37ea;
     color: #000;
@@ -73,5 +73,8 @@ input, textarea {
    }
    button {
     font-size: 2rem;
+   }
+   .sendBtn {
+    width: 50%;
    }
   }
