@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-boolean-value */
 /* eslint-disable quotes */
 /* eslint-disable react/jsx-filename-extension */
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Vortex } from "react-loader-spinner";
+
 import styles from "./loading.module.css";
-import Spinner from "./Spinner";
 
 function Loading() {
   const [isLoading, setLoading] = useState(false);
@@ -24,7 +26,15 @@ function Loading() {
     >
       <div className={styles.modal}>
         <div className={styles.modalContent}>
-          <Spinner />
+          <Vortex
+            visible={true}
+            height="80"
+            width="80"
+            ariaLabel="vortex-loading"
+            wrapperStyle={{}}
+            wrapperClass="vortex-wrapper"
+            colors={["red", "green", "blue", "yellow", "orange", "purple"]}
+          />
         </div>
       </div>
     </motion.section>
